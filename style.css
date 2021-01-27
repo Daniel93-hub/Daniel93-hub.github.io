@@ -1,6 +1,6 @@
 .nav {
   height: 70px;
-  border-bottom: 1px solid powderblue;
+  border-bottom: 1px solid #04c2c9;
   display: flex;
   align-items: center;
 
@@ -8,34 +8,50 @@
 .nav-right-items {
   display: flex;
   margin-left: auto;
-  color: gray;
+  color: black;
+  float: right;
+  background: transparent;
 }
 
 .nav-item {
   margin-left: 50px;
   padding-right: 20px;
+  margin-right: 50px;
 }
 .company-name {
 padding-left: 80px;
 margin-top: 50px;
 font-size: 60px;
-font-family: cursive;
+font-family: "Raleway-semibold";
 font-weight: 200;
 font-style: italic;
+color: gray;
 }
 
 .title {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  font-family: monospace;
+  font-family: "Raleway-semibold";
   padding-bottom: 30px;
+}
+.About-title{
+
+
+  font-size: 2.4em;
+  font-weight: 400;
+  background: transparent;
+
 }
 
 .subtitle {
   font-size: 18px;
   font-weight: 260;
   line-height: 33px;
+  display: inline-block;
+}
+.subtitle-detail{
+  display: inline-block;
 }
 
 .main {
@@ -48,7 +64,7 @@ font-style: italic;
   margin: 30px;
   width: 300px;
   margin-top: 100px;
-  border: 5px solid powderblue;
+  border: 5px solid #04c2c9;
   height: 200px;
   text-align: center;
   border-radius: 20px;
@@ -59,11 +75,11 @@ font-style: italic;
 }
 
 .dan-item-title{
-  border-bottom: 3px solid powderblue;
+  border-bottom: 3px solid #04c2c9;
   padding: 10px;
   font-weight: 700;
   font-size: 20px;
-  font-family: monospace;
+  font-family: "Raleway-semibold";
   background-color: rgba(0,0,0,.03);
 }
 
@@ -76,7 +92,7 @@ font-style: italic;
   color: gray;
   background-color: transparent;
   background-image: none;
-  border-color: powderblue;
+  border-color: #04c2c9;
   padding: .5rem 2rem;
   font-size: 1.25rem;
   line-height: 1.5;
